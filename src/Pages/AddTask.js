@@ -1,9 +1,12 @@
 import React from 'react';
-
+import style from './AddTask.module.css'
 const AddTask = () => {
     return (
-        <div>
-            this is add task page
+        <div className='flex justify-center items-center add-task-container'>
+        <form action="">
+            <label htmlFor="task">Task</label>
+            <input type="text" id="task" />
+        </form>
         </div>
     );
 };

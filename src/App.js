@@ -6,7 +6,7 @@ import 'flowbite'
 
 function App() {
   return (
-    <div >
+    <div  className='relative'>
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
